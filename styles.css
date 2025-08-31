@@ -55,3 +55,6 @@ h1 {
   background-color: rgb(179, 154, 184);
   max-width: 1040px;
 }
+li {
+  padding-bottom: 10px;
+}
