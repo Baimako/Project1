@@ -1,21 +1,27 @@
 body {
-    background-color: lightgrey;
-    font-family: cursive;
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 h1 {
-    text-align: center;
-    font-size: 50px;
+  font-size: 50px;
+}
+.header {
+  text-align: center;
 }
 .rubrik {
-    font-size: 25px;
-    padding-left: 25px;
+  font-size: 25px;
+  padding-left: 25px;
 }
-.hobbyLåda{
-    border:2px solid purple;
-    display: inline-block;
-    padding: 10px;       
-    margin: 10px;
-    font-size: 20px;
+.hobbyLåda {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(193, 180, 196);
+  max-width: 500px;
 }
 .bild {
   height: auto;
@@ -23,8 +29,29 @@ h1 {
   display: block;
 }
 .flex {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cv {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.cvLåda {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(111, 89, 114);
+  max-width: 1040px;
+}
+.container {
+  width: fit-content;
+}
+.varför {
+  border: 2px solid purple;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(82, 62, 86);
+  max-width: 1040px;
 }
