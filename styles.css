@@ -30,8 +30,7 @@ h1 {
 }
 .flex {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
 }
 .cv {
   justify-content: center;
@@ -55,6 +54,12 @@ h1 {
   background-color: rgb(179, 154, 184);
   max-width: 1040px;
 }
+.varför p {
+  padding-left: 25px;
+}
 li {
   padding-bottom: 10px;
+}
+section {
+  margin: 20px;
 }
